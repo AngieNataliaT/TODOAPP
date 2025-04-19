@@ -1,6 +1,118 @@
+body {
+  padding: 80px;
+  margin: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(58, 224, 213) 0%,
+    rgb(138, 244, 173) 50%,
+    rgb(6, 224, 64) 100%
+  );
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.appi {
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+main {
+  background-color: aliceblue;
+  gap: 5px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+
 .espacio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 12px;
   height: 35px;
-  width: 240px;
+  width: 280px;
   border-radius: 6px;
   border: 0.5px solid rgb(153, 150, 150);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.mas {
+  width: 40px;
+  height: 39px;
+  border-radius: 6px;
+  border: 0.5px;
+  background: rgb(197, 5, 231);
+  font-size: 35px;
+  color: aliceblue;
+}
+
+ul {
+  background-color: rgba(205, 204, 204, 0.64);
+  padding: 12px;
+  height: 15px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.eliminar {
+  background-color: rgb(250, 29, 29);
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.botton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
+
+.tareaanterior {
+  background-color: rgba(205, 204, 204, 0.64);
+  height: 15px;
+  width: full;
+}
+
+#borrar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.borrartodo {
+  background: rgb(197, 5, 231);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 8px;
+  padding-right: 50px;
+  padding-left: 30px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
 }

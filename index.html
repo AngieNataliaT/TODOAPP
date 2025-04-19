@@ -4,17 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Todo App</title>
   </head>
   <body>
-    <h1>Todo App</h1>
-    <input class="espacio" type="text" placeholder="Agrega tu nueva tarea" />
+    <section class="appi">
+      <header>
+        <h1>Todo App</h1>
+        <div class="campo">
+          <input
+            class="espacio"
+            type="text"
+            placeholder="Agrega tu nueva tarea"
+          />
+          <button class="mas" type="button">+</button>
+        </div>
+      </header>
+      <main>
+        <section>
+          <div class="texto">
+            <ul>
+              Comprar una nueva laptop para juegos
+            </ul>
 
-    <section>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
+            <div class="botton">
+              <ul class="tareaanterior">
+                Completar una tarea anterior
+              </ul>
+              <button class="eliminar" type="button">🚮</button>
+            </div>
+
+            <ul>
+              Crear un video para youtube
+            </ul>
+            <ul>
+              Crear un nuevo sitio de portafolio
+            </ul>
+          </div>
+        </section>
+        <br />
+        <div id="Borrar">
+          <span>Tienes 4 tareas pendientes</span>
+          <button class="borrartodo" type="button">Borrar todo</button>
+        </div>
+      </main>
     </section>
   </body>
 </html>
